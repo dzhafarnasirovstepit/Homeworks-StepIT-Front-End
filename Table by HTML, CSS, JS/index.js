@@ -15,11 +15,11 @@ function addtd() {
 let n = 4;
 let m = 3;
 
-for (let a = 0; a < n; ++n) {
+for (let a = 0; a < n; ++a) {
     const tr = addtr();
     table.appendChild(tr);
 
-    for (let b = 0; b < m; ++m) {
+    for (let b = 0; b < m; ++b) {
         const td = addtd();
         tr.appendChild(td);
     }
