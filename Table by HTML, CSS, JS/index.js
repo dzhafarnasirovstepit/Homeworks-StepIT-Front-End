@@ -11,11 +11,15 @@ function addtd() {
     return document.createElement('td');
 }
 
-for (let n = 0; n < 3; ++n) {
+
+let n = 4;
+let m = 3;
+
+for (let a = 0; a < n; ++n) {
     const tr = addtr();
     table.appendChild(tr);
 
-    for (let m = 0; m < 4; ++m) {
+    for (let b = 0; b < m; ++m) {
         const td = addtd();
         tr.appendChild(td);
     }
